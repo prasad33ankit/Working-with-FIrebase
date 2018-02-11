@@ -1,0 +1,24 @@
+First go to firebase.google.com
+then sign in with a Google Account
+->on the top right corner click "Go to Console"
+->click on create new project if its your first project else click on "Add Project"
+->open project
+->Click on "Add Firebase to your web app" if you want to add it to your web app
+->copy the script src file location for your firebase app into the index.html file
+
+#To add authentication keys to your project
+Go to firebase console 
+->Develop->Database->Rules
+
+#Connecting to the database
+->Type var database = firebase.database(); in setup function
+
+#Adding data to firebase database throught javascript
+->
+  var data = 
+  {
+  	name: "DTS",
+  	score: 43
+  }
+  ref.push(data);
+ ->then go to firebase->console->your project->database->data
